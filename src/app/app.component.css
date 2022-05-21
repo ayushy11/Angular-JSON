@@ -1,0 +1,14 @@
+.container {
+  width: 100%;
+  display: flex;
+}
+
+.list {
+  color: #ffffff;
+  width: 50%;
+}
+
+.details {
+  color: #ffffff;
+  width: 50%;
+}

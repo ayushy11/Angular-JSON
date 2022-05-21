@@ -1,0 +1,8 @@
+<div class="table">
+  <div class="table__data" *ngFor="let country of countries">
+    <div (click)="onSelect(country)">
+      <div>{{ country.countryInfo._id }}</div>
+      <div>{{ country.country }}</div>
+    </div>
+  </div>
+</div>
